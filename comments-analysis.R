@@ -1,10 +1,11 @@
+#Load relevant libraries
 library(readr)
 library(dplyr)
 library(stringr)
 
 ### FUNCTION FOR IMPORTING COMMENTS FILE
-# This function imports a file containing People Survey comments. It must be a
-# single column file. Function will convert text to lower case.
+# This function imports a file containing comments. It must be a
+# single column csv file. Function will convert text to lower case.
 #
 # x <- import_comments("PATHTOFILE") will produce a data frame
 #
